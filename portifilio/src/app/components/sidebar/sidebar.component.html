@@ -1,0 +1,23 @@
+<section >
+  <div class="fotoDePerfil__container">
+    <app-foto-perfil [imgCard]="fotoDePerfil"></app-foto-perfil>
+  </div>
+
+  <div class="menu-text__container">
+    <ion-icon name="pin"></ion-icon>
+    <ul (click)="chagendMenuActive()">
+      <li><a [ngClass]="isMenuHomeActive ? 'h3Active': ''">Home</a></li>
+      <p>|</p>
+      <li><a [ngClass]="isMenuAbouteMeActive ? 'h3Active': ''">Sobre mim</a></li>
+      <p>|</p>
+      <li><a [ngClass]="isMenuResumeActive ? 'h3Active': ''">Resumo</a></li>
+      <p>|</p>
+      <li><a [ngClass]="isMenuPortfolio ? 'h3Active': ''">Portfolio</a></li>
+      <p>|</p>
+      <li><a [ngClass]="isMenuProvaSocial ? 'h3Active': ''">Prova Social</a></li>
+      <p>|</p>
+      <li><a [ngClass]="isMenuContact ? 'h3Active': ''">Contato</a></li>
+    </ul>
+    <ion-icon class="lastIcon" name="pin"></ion-icon>
+  </div>
+</section>

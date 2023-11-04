@@ -1,0 +1,11 @@
+<nav class="navBar__container">
+  <ul (click)="menuActiveToogle()" class="menu-ul__container">
+    <li><a [routerLink]="['/']"><ion-icon [color]="Map.get('MapMenuHome')" name="home"></ion-icon></a></li>
+    <li><a [routerLink]="['/about-me']"><ion-icon [color]="Map.get('MapMenuAboutMe')" name="person"></ion-icon></a></li>
+    <li><a [routerLink]="['/resume']" ><ion-icon  [color]="Map.get('MapMenuResume')" name="bag"></ion-icon></a></li>
+    <li><a [routerLink]="['/portfolio']"><ion-icon [color]="Map.get('MapMenuPortfolio')" name="code-working"></ion-icon></a></li>
+    <li><a [routerLink]="['/prova-social']"><ion-icon [color]="Map.get('MapMenuProvaSocial')" name="people"></ion-icon></a></li>
+    <li><a [routerLink]="['/contact']"><ion-icon [color]="Map.get('MapMenuContact')" name="paper-plane"></ion-icon></a></li>
+  </ul>
+</nav>
+

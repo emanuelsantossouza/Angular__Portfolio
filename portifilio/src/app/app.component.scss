@@ -1,0 +1,22 @@
+.pages__container{
+  margin-left: 250px;
+  padding-left: 6.5rem;
+  margin-top: 3.6rem;
+}
+.menu__container {
+  position: absolute;
+  left: 96%;
+  top: 30%;
+}
+
+.router{
+  display: flex;
+  flex-direction: column;
+  background: red;
+}
+
+.sidebar__container{
+ position: absolute;
+ top: 0;
+ background: var(--amarelo-backdround);
+}

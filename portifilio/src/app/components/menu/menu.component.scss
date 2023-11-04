@@ -1,0 +1,19 @@
+.navBar__container {
+  background-color: var(--amarelo-backdround);
+  border-radius: 20px;
+}
+
+.menu-ul__container {
+  list-style: none;
+  padding: 10px;
+}
+
+.menu-ul__container > li{
+  font-size: 1.2rem;
+  padding: .75rem 0;
+}
+
+.menu-li__container{
+  background: white;
+}
+

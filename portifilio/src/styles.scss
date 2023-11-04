@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+:root{
+  --amarelo-primario: #FFB72B;
+  --amarelo-fonte: #EBBD70;
+  --amarelo-backdround: #E9B132;
+
+  --bg-gray: #D4D4D4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--bg-gray);
+}
+
+h1,h2,h3, h4, p{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+
+}

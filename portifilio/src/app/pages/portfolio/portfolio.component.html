@@ -1,0 +1,57 @@
+<main class="portfolio__container">
+  <app-big-text [bigText]="bigTextPortfolio"></app-big-text>
+
+  <nav class="project__list">
+    <ul>
+      <li (click)="portfolioMenuActiveClick('all')"
+        [ngClass]=" portfolioMenuComponents.get('all') ? 'project__list-active': '' ">
+        <h3>All</h3>
+      </li>
+      <li (click)="portfolioMenuActiveClick('design')"
+        [ngClass]=" portfolioMenuComponents.get('design') ? 'project__list-active': '' ">
+        <h3>Desinger</h3>
+      </li>
+      <li (click)="portfolioMenuActiveClick('programacaoWeb')"
+        [ngClass]=" portfolioMenuComponents.get('programacaoWeb') ? 'project__list-active': '' ">
+        <h3>Programção Web</h3>
+      </li>
+      <li (click)="portfolioMenuActiveClick('mobile')"
+        [ngClass]=" portfolioMenuComponents.get('mobile') ? 'project__list-active': '' ">
+        <h3>Mobile</h3>
+      </li>
+    </ul>
+  </nav>
+
+  <section>
+    <div *ngIf="portfolioMenuComponents.get('all') === true">
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+      <app-mini-card-portfolio img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    </div>
+
+    <div *ngIf="portfolioMenuComponents.get('all') === !true">
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    <app-mini-card-portfolio
+      img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
+    </div>
+  </section>
+</main>

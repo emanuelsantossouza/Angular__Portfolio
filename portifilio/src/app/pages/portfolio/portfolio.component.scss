@@ -1,0 +1,30 @@
+.portfolio__container {
+  width: 90%
+}
+
+.project__list {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 1.5rem;
+}
+
+.project__list > ul {
+  list-style: none;
+  display: flex;
+
+}
+
+.project__list>ul> li{
+  margin-left: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.project__list>ul>li>h3{
+  font-size: 1.3em;
+}
+
+.project__list-active{
+  color: white;
+}

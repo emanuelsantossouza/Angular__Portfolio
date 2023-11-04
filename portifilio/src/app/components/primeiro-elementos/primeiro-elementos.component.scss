@@ -1,0 +1,55 @@
+.section__container {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 180px 0px 10px 140px;
+
+}
+
+.complemento {
+  font-size: 2.7rem;
+}
+
+
+h2 {
+  text-transform: uppercase;
+}
+
+.name {
+  font-size: 4rem;
+  margin-bottom: .4rem;
+}
+
+.nome__fonte {
+  color: var(--amarelo-fonte);
+  font-family: 'Tourney', sans-serif;
+}
+
+.name__bags {
+  background-color: var(--amarelo-backdround);
+  font-size: .75rem;
+  font-weight: 900;
+  width: 250px;
+
+  margin-bottom: 1.5rem;
+  padding: 5px;
+}
+
+p {
+  width: 535px;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.btn{
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .7rem;
+  background:  var(--amarelo-backdround);
+}

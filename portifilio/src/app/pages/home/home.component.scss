@@ -1,0 +1,14 @@
+.main__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background: white;
+}
+
+.main__container>.imgFundo {
+  height: 100vh;
+  width: 100%;
+}
+
+
