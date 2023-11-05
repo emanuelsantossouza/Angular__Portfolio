@@ -7,8 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portifilio';
-  homeMenu: boolean = false;
+  homeMenu: boolean = true;
 
+
+  ngDoCheck() {
+    this.mudarMenu();
+  }
 
   mudarMenu() {
     if (localStorage.getItem('menuHome') == 'light') {
@@ -16,11 +20,5 @@ export class AppComponent {
     } else {
       this.homeMenu = false;
     }
-    console.log(this.homeMenu);
-    this.trocarMenuLateral();
-  }
-
-  trocarMenuLateral() {
-    console.log("Trocando cor do me")
   }
 }

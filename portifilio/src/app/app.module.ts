@@ -14,7 +14,9 @@ import { FotoPerfilComponent } from './components/foto-perfil/foto-perfil.compon
 import { MenuComponent } from './components/menu/menu.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BigTextComponent } from './components/big-text/big-text.component';
-import { MiniCardPortfolioComponent } from './components/mini-card-portfolio/mini-card-portfolio.component';
+import { MiniCardPortfolioComponent } from './pages/portfolio/mini-card-portfolio/mini-card-portfolio.component';
+import { SubComponentResumoComponent } from './pages/resume/sub-component-resumo/sub-component-resumo.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { MiniCardPortfolioComponent } from './components/mini-card-portfolio/min
     MenuComponent,
     SidebarComponent,
     BigTextComponent,
-    MiniCardPortfolioComponent
+    MiniCardPortfolioComponent,
+    SubComponentResumoComponent
   ],
   imports: [
     BrowserModule,

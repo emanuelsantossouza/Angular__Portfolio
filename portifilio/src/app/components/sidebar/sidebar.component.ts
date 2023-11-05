@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 
+
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
@@ -7,6 +8,8 @@ import { Component, Input } from '@angular/core';
 })
 export class SidebarComponent {
   fotoDePerfil = '../../../assets/img/fotoPerfil.jpg';
+
+  constructor() { }
 
   isMenuHomeActive: boolean = false;
   isMenuResumeActive: boolean = false;
@@ -21,6 +24,10 @@ export class SidebarComponent {
   menuPortfolio = localStorage.getItem('menuPortfolio');
   menuContact = localStorage.getItem('menuContact');
 
+  comeBackHome() {
+    localStorage.setItem('menuHome', 'dark');
+  }
+
 
   chagendMenuActive() {
     this.isMenuHomeActive = this.testActiveMenu('menuHome');
@@ -29,16 +36,9 @@ export class SidebarComponent {
     this.isMenuPortfolio = this.testActiveMenu('menuPortfolio');
     this.isMenuContact = this.testActiveMenu('menuContact');
     this.isMenuResumeActive = this.testActiveMenu('menuResume');
-
-    console.log("Clicou aquii")
-    console.log(this.isMenuHomeActive)
-    console.log(this.isMenuAbouteMeActive)
-    console.log(this.isMenuProvaSocial)
-    console.log(this.isMenuPortfolio)
-    console.log(this.isMenuContact)
   }
 
-  ngOnInit() {
+  ngDoCheck() {
     this.chagendMenuActive();
   }
 

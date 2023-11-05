@@ -6,17 +6,17 @@
   <div class="menu-text__container">
     <ion-icon name="pin"></ion-icon>
     <ul (click)="chagendMenuActive()">
-      <li><a [ngClass]="isMenuHomeActive ? 'h3Active': ''">Home</a></li>
+      <li><a (click)="comeBackHome()" [ngClass]="isMenuHomeActive ? 'h3Active': ''" [routerLink]="['/']">Home</a></li>
       <p>|</p>
-      <li><a [ngClass]="isMenuAbouteMeActive ? 'h3Active': ''">Sobre mim</a></li>
+      <li><a [ngClass]="isMenuAbouteMeActive ? 'h3Active': ''" [routerLink]="['/about-me']">Sobre mim</a></li>
       <p>|</p>
-      <li><a [ngClass]="isMenuResumeActive ? 'h3Active': ''">Resumo</a></li>
+      <li><a [ngClass]="isMenuResumeActive ? 'h3Active': ''" [routerLink]="['/resume']">Resumo</a></li>
       <p>|</p>
-      <li><a [ngClass]="isMenuPortfolio ? 'h3Active': ''">Portfolio</a></li>
+      <li><a [ngClass]="isMenuPortfolio ? 'h3Active': ''" [routerLink]="['/portfolio']">Portfolio</a></li>
       <p>|</p>
-      <li><a [ngClass]="isMenuProvaSocial ? 'h3Active': ''">Prova Social</a></li>
+      <li><a [ngClass]="isMenuProvaSocial ? 'h3Active': ''" [routerLink]="['/prova-social']">Prova Social</a></li>
       <p>|</p>
-      <li><a [ngClass]="isMenuContact ? 'h3Active': ''">Contato</a></li>
+      <li><a [ngClass]="isMenuContact ? 'h3Active': ''" [routerLink]="['/contact']">Contato</a></li>
     </ul>
     <ion-icon class="lastIcon" name="pin"></ion-icon>
   </div>

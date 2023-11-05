@@ -21,6 +21,10 @@ export class MenuComponent {
     localStorage.clear();
   }
 
+  ngDoCheck() {
+    this.menuActiveToogle();
+  }
+
   menuActiveToogle() {
     this.testMenuActive('MapMenuHome', 'menuHome');
     this.testMenuActive('MapMenuAboutMe', 'menuAbouteMe')

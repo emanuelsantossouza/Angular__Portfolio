@@ -1,7 +1,9 @@
 <app-menu (click)="mudarMenu()" class="menu__container"></app-menu>
-<app-sidebar (click)="trocarMenuLateral()" class="sidebar__container" *ngIf="homeMenu === false"></app-sidebar>
+
+<div *ngIf="homeMenu === false">
+  <app-sidebar class="sidebar__container"></app-sidebar>
+</div>
 
 <div [ngClass]="homeMenu ? '' : 'pages__container'">
   <router-outlet></router-outlet>
 </div>
-

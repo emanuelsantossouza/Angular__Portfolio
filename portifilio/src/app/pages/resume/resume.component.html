@@ -1,1 +1,23 @@
-<app-big-text [bigText]="bigTextResume"></app-big-text>
+<main>
+  <app-big-text [bigText]="bigTextResume"></app-big-text>
+
+  <h1>Educação</h1>
+  <div class="subComponent__container">
+    <app-sub-component-resumo [Bigtitle]="bigTextSubComponent" [categoria]="categoriaSubComponent"
+      [titleLegend]="titleLegendCompenent" [smallTextDescribe]="smallTextDescribeComponent"></app-sub-component-resumo>
+    <app-sub-component-resumo [BigTitle]="bigTextVazio" [categoria]="categoriaSubComponent"
+      [titleLegend]="titleLegendCompenent" [smallTextDescribe]="smallTextDescribeComponent"></app-sub-component-resumo>
+    <app-sub-component-resumo [BigTitle]="bigTextVazio" [categoria]="categoriaSubComponent"
+      [titleLegend]="titleLegendCompenent" [smallTextDescribe]="smallTextDescribeComponent"></app-sub-component-resumo>
+  </div>
+  <hr>
+  <h1>Habilidades</h1>
+  <div class="subComponent__container">
+    <app-sub-component-resumo [Bigtitle]="bigTextSubComponent" [categoria]="categoriaSubComponent"
+      [titleLegend]="titleLegendCompenent" [smallTextDescribe]="smallTextDescribeComponent"></app-sub-component-resumo>
+    <app-sub-component-resumo [BigTitle]="bigTextVazio" [categoria]="categoriaSubComponent"
+      [titleLegend]="titleLegendCompenent" [smallTextDescribe]="smallTextDescribeComponent"></app-sub-component-resumo>
+    <app-sub-component-resumo [BigTitle]="bigTextVazio" [categoria]="categoriaSubComponent"
+      [titleLegend]="titleLegendCompenent" [smallTextDescribe]="smallTextDescribeComponent"></app-sub-component-resumo>
+  </div>
+</main>
