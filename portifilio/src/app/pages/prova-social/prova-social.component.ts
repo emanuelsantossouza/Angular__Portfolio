@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class ProvaSocialComponent {
 
   menuProvaSocial!: string;
+  bigTextProvaSocial:string = 'Prova Social';
 
   ngOnInit() {
     this.menuProvaSocial = 'light';

@@ -1,13 +1,14 @@
 .main__container {
-  display: flex;
+display: grid;
   flex-direction: row;
-  justify-content: space-between;
+  grid-template-columns: 48.11% 6fr;
+  background: white;
 
   background: white;
+  overflow-x: hidden;
 }
 
 .main__container>.imgFundo {
-  height: 100vh;
   width: 100%;
 }
 

@@ -1,0 +1,54 @@
+.subComponent-ProvaSocial__container{
+  background: rgb( 0,0,0);
+  padding: 1rem;
+
+  width: 450px;
+  height: 250px;
+}
+
+.nameImg__container{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+img{
+  border-radius: 5px;
+}
+
+
+.describePerson__container{
+  margin-left: 1rem;
+}
+
+.describePerson__container>h1{
+  color: var(--amarelo-fonte);
+  margin: .5rem 0;
+}
+
+.describePerson__container > h3{
+  color: white;
+  margin-bottom: .5rem;
+
+  font-size: 1rem;
+}
+
+.describePerson__container> p{
+  color: gray;
+  font-size: .8rem;
+}
+
+
+.avaliacaoDate__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.like > ion-icon{
+  color: var(--amarelo-fonte);
+  padding: 0 .2rem;
+}
+
+.day > p{
+  color: white;
+}

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  fotoDePerfil = '../../../assets/img/fotoPerfil.jpg';
+  fotoDePerfil = '../../../assets/img/fotoPerfil.png';
 
   menuHome!: string;
 

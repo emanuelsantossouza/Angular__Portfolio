@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   menuContact!: string;
+  bitTextContact: string = 'Contato';
 
   ngOnInit() {
     this.menuContact = 'light';

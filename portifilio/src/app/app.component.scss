@@ -20,3 +20,14 @@
  top: 0;
  background: var(--amarelo-backdround);
 }
+
+
+@media (max-width: 768px) {
+  .sidebar__container{
+    display: none;
+  }
+
+  .menu__container{
+    display: none;
+  }
+}

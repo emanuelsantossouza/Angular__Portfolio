@@ -16,6 +16,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body{
@@ -28,5 +30,6 @@ h1,h2,h3, h4, p{
 
 a{
   text-decoration: none;
-
 }
+
+

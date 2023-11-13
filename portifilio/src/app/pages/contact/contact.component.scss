@@ -1,0 +1,43 @@
+main{
+  width: 90%;
+}
+
+.textContact__container{
+
+}
+
+
+.textContacto__component{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+h2{
+  text-align: center;
+  
+}
+
+img{
+  width: 100%;
+}
+
+.imgContact__container{
+  width: 250px;
+  cursor: pointer;
+
+  margin: 2rem 0;
+}
+
+.imgContact__container > a > p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  margin: 1rem 0;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}

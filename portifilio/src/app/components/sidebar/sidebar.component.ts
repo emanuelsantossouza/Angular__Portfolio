@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent {
-  fotoDePerfil = '../../../assets/img/fotoPerfil.jpg';
+  fotoDePerfil = '../../../assets/img/fotoPerfilSideBar.png';
 
   constructor() { }
 

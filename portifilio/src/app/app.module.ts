@@ -16,6 +16,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BigTextComponent } from './components/big-text/big-text.component';
 import { MiniCardPortfolioComponent } from './pages/portfolio/mini-card-portfolio/mini-card-portfolio.component';
 import { SubComponentResumoComponent } from './pages/resume/sub-component-resumo/sub-component-resumo.component';
+import { SubComponentProvaSocialComponent } from './pages/prova-social/sub-component-prova-social/sub-component-prova-social.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { SubComponentResumoComponent } from './pages/resume/sub-component-resumo
     SidebarComponent,
     BigTextComponent,
     MiniCardPortfolioComponent,
-    SubComponentResumoComponent
+    SubComponentResumoComponent,
+    SubComponentProvaSocialComponent
   ],
   imports: [
     BrowserModule,

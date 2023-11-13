@@ -1,0 +1,9 @@
+main{
+  width: 90%;
+}
+
+.provaSocial-subCard__container{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  gap: .5rem;
+}

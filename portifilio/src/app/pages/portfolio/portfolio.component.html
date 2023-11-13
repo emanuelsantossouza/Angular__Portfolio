@@ -68,6 +68,14 @@
       <app-mini-card-portfolio
         img="https://img.freepik.com/vetores-gratis/conceito-de-interface-de-aplicativo-bancario_52683-41892.jpg?w=826&t=st=1699071824~exp=1699072424~hmac=dc100cdb1ddffe824df0d249fa90fe1035de6bc00ddf6c4a754d3c457d854a8c"></app-mini-card-portfolio>
     </div>
+
+
+    
+    <div class="container_mobile" *ngIf="portfolioMenuComponents.get('programacaoWeb') === true"></div>
+
+    <div class="container_mobile" *ngIf="portfolioMenuComponents.get('mobile') === true"></div>
+
+    <div *ngIf="portfolioMenuComponents.get('design') === true"></div>
+
   </section>
 </main>
-
